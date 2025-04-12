@@ -1,0 +1,23 @@
+[package]
+name = "bevy-platformer"
+version = "0.1.0"
+edition = "2024"
+authors = ["Ethan Uppal"]
+license = "GPL-3.0-only"
+
+[dependencies]
+bevy = { version = "0.16.0-rc.2", features = ["dynamic_linking"] }
+avian2d = { git = "https://github.com/ethanuppal/avian", rev = "a7daa50", default-features = false, features = [
+  "2d",
+  "f32",
+  "parry-f32",
+  "default-collider",
+  "diagnostic_ui",
+  "parallel",
+] }
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
