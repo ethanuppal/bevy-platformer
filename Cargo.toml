@@ -13,6 +13,9 @@ avian2d = { git = "https://github.com/ethanuppal/avian", rev = "a7daa50", defaul
   "parry-f32",
   "default-collider",
   "diagnostic_ui",
+  "bevy_scene",
+  "bevy_picking",
+  "debug-plugin",
   "parallel",
 ] }
 
