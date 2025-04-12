@@ -18,6 +18,7 @@ avian2d = { git = "https://github.com/ethanuppal/avian", rev = "a7daa50", defaul
   "debug-plugin",
   "parallel",
 ] }
+bevy_ecs_ldtk = { git = "https://github.com/ethanuppal/bevy_ecs_ldtk", rev = "2ad95e1" }
 
 [profile.dev]
 opt-level = 1
